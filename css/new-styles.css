@@ -42,6 +42,21 @@ ul.nav, .jumbotron h1 {
     
 }
 
+.homepage {
+    text-align: center;
+    color: #d0ff00e3;
+                  
+}
+
+.homepage hr {
+    border-color: #00ff00;
+    width: 258px;
+    margin-top: 15px auto;
+    margin: 15px auto;
+    text-align: center;
+    
+}
+
 footer {
     background-color:#00ff00;
     padding-top: 150px;
@@ -82,6 +97,7 @@ footer {
     #get-involved .col-md-4 {
         padding-top: 20px;
         padding-bottom: 20px;
+        
     }
 
     @media (max-width: 767px) { 
@@ -99,16 +115,44 @@ footer {
             font-size: 18px;
         }
 
-        .homepage p {
-            font-size: 18px;
+        .homepage {
+            text-align: center;
         }
-    
+
+        .homepage h2, .homepage h3 {
+            font-size: 18px;
+            text-align: center;
+            text-transform: capitalize;
+            font-family: 'Arvo', courier, serif;
+            color: #ef4;
+        }
+
+      
+        
         #get-involved .col-md-4 {
             padding-top: 20px;
             padding-bottom: 20px;
+            text-align: center;
+            color: #ef4;
+                  
         }
 
+        .homepage p {
+            font-weight: 300;
+            font-size: 21px;
+        }
+
+        .homepage a {
+            color: #ef4;
+        }
+
+        .homepage hr {
+            text-align: center;
+            color: #ef4
+        }
+       
+
      footer img {
-         width: 80%;
+         width: 100%;
      }   
 }
